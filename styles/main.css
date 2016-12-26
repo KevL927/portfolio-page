@@ -123,9 +123,18 @@ ul ul {
 	font-family: serif;
 }
 
-.list-subtitle {
+.list-title, .list-subtitle {
 	font-family: Vollkorn;
 	font-weight: bolder;
+}
+
+.list-title {
+	font-size: 16px;
+}
+
+.complete-year {
+	margin-left: 10px;
+	color: gray;
 }
 
 .icon-html5:before, .icon-css3:before, .icon-js:before, .icon-jquery:before, .icon-react:before, .icon-nodejs:before, .icon-express:before, .icon-mongodb:before, .icon-postgres:before, .icon-heroku:before, .icon-github-circle-alt:before {
