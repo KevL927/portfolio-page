@@ -66,6 +66,10 @@ ul ul {
   text-align: center;
 }
 
+#about-me {
+	background-color: #F5EEE2;
+}
+
 .title {
 	color: #AA3939;
 	font-size: 100px;
@@ -89,6 +93,48 @@ ul ul {
 	cursor: pointer;
 	cursor: hand;
 	display: block;
+}
+
+.profile-pic {
+  width: 200px;
+  height: auto;
+  /*float: left;*/
+  margin-right: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+.about-me-pg {
+	font-size: 25px;
+	text-align: center;
+  font-family: goudy-bookletter;
+}
+
+.list, .software-list {
+	list-style-type: none;
+	font-family: goudy-bookletter;
+}
+
+.software-list li {
+	margin-bottom: 6px;
+}
+
+.num-fix {
+	font-family: serif;
+}
+
+.list-title, .list-subtitle {
+	font-family: Vollkorn;
+	font-weight: bolder;
+}
+
+.list-title {
+	font-size: 16px;
+}
+
+.complete-year {
+	margin-left: 10px;
+	color: gray;
 }
 
 .icon-html5:before, .icon-css3:before, .icon-js:before, .icon-jquery:before, .icon-react:before, .icon-nodejs:before, .icon-express:before, .icon-mongodb:before, .icon-postgres:before, .icon-heroku:before, .icon-github-circle-alt:before {
