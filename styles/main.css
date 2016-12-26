@@ -110,8 +110,22 @@ ul ul {
   font-family: goudy-bookletter;
 }
 
+.list, .software-list {
+	list-style-type: none;
+	font-family: goudy-bookletter;
+}
+
+.software-list li {
+	margin-bottom: 6px;
+}
+
 .num-fix {
 	font-family: serif;
+}
+
+.list-subtitle {
+	font-family: Vollkorn;
+	font-weight: bolder;
 }
 
 .icon-html5:before, .icon-css3:before, .icon-js:before, .icon-jquery:before, .icon-react:before, .icon-nodejs:before, .icon-express:before, .icon-mongodb:before, .icon-postgres:before, .icon-heroku:before, .icon-github-circle-alt:before {
