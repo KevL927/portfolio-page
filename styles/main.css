@@ -1,0 +1,99 @@
+@font-face {
+	font-family: "goudy-bookletter";
+	src: url("../fonts/goudy_bookletter_1911-webfont.woff") format('woff');
+}
+
+@font-face {
+	font-family: "leaguegothic";
+	src: url("../fonts/leaguegothic-regular-webfont.woff") format('woff');
+}
+
+@font-face {
+	font-family: "leaguegothic";
+	src: url("../fonts/leaguegothic-italic-webfont.woff") format('woff');
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "leaguegothic";
+	src: url("../fonts/leaguegothic-condensed-regular-webfont.woff") format('woff');
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: "leaguegothic";
+	src: url("../fonts/leaguegothic-condensed-italic-webfont.woff") format('woff');
+	font-stretch: condensed;
+	font-style: italic;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: leaguegothic;
+}
+
+section {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  height: 100vh;
+	background-color: #23251F;
+}
+
+hX {
+	margin-left: 5px;
+	color: #AA3939;
+	font-size: 30px;
+}
+
+ul ul {
+	margin-bottom: 10px;
+}
+
+#intro {
+  height: 95vh;
+}
+
+#intro-content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.title {
+	color: #AA3939;
+	font-size: 100px;
+}
+
+.name {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.subtitle {
+	margin-top: 50px;
+	color: #F5EEE2;
+	font-size: 60px;
+}
+
+.arrow {
+	width: 20px;
+	height: auto;
+	margin: 200px auto 60px auto;
+	cursor: pointer;
+	cursor: hand;
+	display: block;
+}
+
+.icon-html5:before, .icon-css3:before, .icon-js:before, .icon-jquery:before, .icon-react:before, .icon-nodejs:before, .icon-express:before, .icon-mongodb:before, .icon-postgres:before, .icon-heroku:before, .icon-github-circle-alt:before {
+	margin-right: 20px;
+	margin-bottom: 20px;
+	color: lightgray;
+	font-size: 50px;
+}
