@@ -95,6 +95,16 @@ ul ul {
 	display: block;
 }
 
+.even-num {
+	color: black;
+}
+
+.page-title {
+	margin-top: 70px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
 .profile-pic {
   width: 200px;
   height: auto;
@@ -123,7 +133,7 @@ ul ul {
 	font-family: serif;
 }
 
-.list-title, .list-subtitle {
+.list-title, .list-subtitle, .project-tech span {
 	font-family: Vollkorn;
 	font-weight: bolder;
 }
@@ -132,9 +142,40 @@ ul ul {
 	font-size: 16px;
 }
 
+.fa {
+	color: brown;
+}
+
 .complete-year {
 	margin-left: 10px;
 	color: gray;
+}
+
+.single-project {
+	margin-bottom: 30px;
+}
+
+.project-screenshot, .project-tech, .project-detail {
+	width: 350px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #F5EEE2;
+	border-radius: 20px;
+}
+
+.project-tech, .project-detail {
+	margin-top: 5px;
+	border-radius: 5px;
+	font-family: goudy-bookletter;
+	text-align: center;
+}
+
+.project-tech span {
+	border-radius: 4px;
+	background-color: #23251F;
+	color:  #AA3939;
 }
 
 .icon-html5:before, .icon-css3:before, .icon-js:before, .icon-jquery:before, .icon-react:before, .icon-nodejs:before, .icon-express:before, .icon-mongodb:before, .icon-postgres:before, .icon-heroku:before, .icon-github-circle-alt:before {
