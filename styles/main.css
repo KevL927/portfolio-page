@@ -175,17 +175,21 @@ ul ul {
 	text-align: center;
 }
 
-.project-title, .project-tech {
-	color:  #AA3939;
-}
-
 .project-title {
-	font-size: 30px;
+	color:  #AA3939;
+	font-size: 34px;
 	margin-bottom: 5px;
 }
 
 .project-tech span {
 	background-color: #23251F;
+	color: #AA3939;
+	font-family: serif;
+	font-size: 18px;
+}
+
+.project-detail {
+	font-size: 24px;
 }
 
 .icon-html5:before, .icon-css3:before, .icon-js:before, .icon-jquery:before, .icon-react:before, .icon-nodejs:before, .icon-express:before, .icon-mongodb:before, .icon-postgres:before, .icon-heroku:before, .icon-github-circle-alt:before {
