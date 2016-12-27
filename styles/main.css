@@ -123,6 +123,7 @@ ul ul {
 .list, .software-list {
 	list-style-type: none;
 	font-family: goudy-bookletter;
+	font-size: 20px;
 }
 
 .software-list li {
@@ -139,7 +140,7 @@ ul ul {
 }
 
 .list-title {
-	font-size: 16px;
+	font-size: 22px;
 }
 
 .fa {
