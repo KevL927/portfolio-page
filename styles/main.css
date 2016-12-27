@@ -99,7 +99,7 @@ ul ul {
 	color: black;
 }
 
-.page-title {
+.section-title {
 	margin-top: 70px;
 	margin-bottom: 50px;
 	text-align: center;
@@ -123,6 +123,7 @@ ul ul {
 .list, .software-list {
 	list-style-type: none;
 	font-family: goudy-bookletter;
+	font-size: 20px;
 }
 
 .software-list li {
@@ -139,7 +140,7 @@ ul ul {
 }
 
 .list-title {
-	font-size: 16px;
+	font-size: 22px;
 }
 
 .fa {
@@ -152,29 +153,89 @@ ul ul {
 }
 
 .single-project {
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 
-.project-screenshot, .project-tech, .project-detail {
+.project-title, .project-screenshot, .project-tech, .project-detail {
 	width: 350px;
 	height: auto;
 	display: block;
 	margin: 0 auto;
 	padding: 10px;
 	background-color: #F5EEE2;
+}
+
+.project-screenshot {
 	border-radius: 20px;
 }
 
-.project-tech, .project-detail {
+.project-title, .project-tech, .project-detail {
 	margin-top: 5px;
 	border-radius: 5px;
 	font-family: goudy-bookletter;
 	text-align: center;
 }
 
+.project-title {
+	color:  #AA3939;
+	font-size: 34px;
+	margin-bottom: 5px;
+}
+
 .project-tech span {
 	background-color: #23251F;
-	color:  #AA3939;
+	color: #AA3939;
+	font-family: serif;
+	font-size: 18px;
+}
+
+.project-detail {
+	font-size: 24px;
+}
+
+.contact-title {
+	color: #AA3939;
+	font-size: 40px;
+	text-align: center;
+}
+
+#contact-buttons {
+    float: right;
+    position: relative;
+    left: -52%;
+    text-align: left;
+}
+
+#contact-buttons ul {
+    list-style: none;
+    position: relative;
+    left: 50%;
+}
+
+#contact-buttons li {
+	float: left;
+	position: relative;
+}
+
+#contact-buttons a{
+    text-decoration: none;
+    margin: 10px;
+    float: left;
+    padding: 2px 5px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#contact-buttons a:hover {
+	border: 2px outset;
+	color: red;
+	background: #f2f2f2;
+}
+
+#contact-buttons a:active {
+	border: 2px inset;
+	color: darkred;
+	background: #f2f2f2;
 }
 
 .icon-html5:before, .icon-css3:before, .icon-js:before, .icon-jquery:before, .icon-react:before, .icon-nodejs:before, .icon-express:before, .icon-mongodb:before, .icon-postgres:before, .icon-heroku:before, .icon-github-circle-alt:before {
