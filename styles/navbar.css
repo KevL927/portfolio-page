@@ -32,7 +32,7 @@ nav {
 }
 
 #sticky-nav-bar li:active {
-  background-color: gray;
+  background-color: darkgray;
 }
 
 .nav-link {
