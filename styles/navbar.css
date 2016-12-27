@@ -1,6 +1,8 @@
 nav {
   height: 44px;
   position: fixed;
+  right:0;
+  top:0;
 }
 
 #sticky-nav-bar {
