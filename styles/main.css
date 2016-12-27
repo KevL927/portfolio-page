@@ -70,6 +70,10 @@ ul ul {
 	background-color: #F5EEE2;
 }
 
+/*.nav-link {
+	cursor: pointer;
+}*/
+
 .title {
 	color: #AA3939;
 	font-size: 100px;
@@ -90,8 +94,6 @@ ul ul {
 	width: 20px;
 	height: auto;
 	margin: 200px auto 60px auto;
-	cursor: pointer;
-	cursor: hand;
 	display: block;
 }
 
