@@ -1,7 +1,10 @@
-let findNextSection = alt => {
-  if(alt === 'intro down arrow') {
+let findNextSection = clickedTarget => {
+  if(clickedTarget === 'To Main') {
+    return '#intro';
+  }
+  if(clickedTarget === 'To About Me') {
     return '#about-me';
-  } else if(alt === 'about me down arrow') {
+  } else if(clickedTarget === 'To Projects') {
       return '#projects';
   } else {
       return '#contact-me';
