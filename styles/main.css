@@ -192,6 +192,51 @@ ul ul {
 	font-size: 24px;
 }
 
+.contact-title {
+	color: #AA3939;
+	font-size: 40px;
+	text-align: center;
+}
+
+#contact-buttons {
+    float: right;
+    position: relative;
+    left: -52%;
+    text-align: left;
+}
+
+#contact-buttons ul {
+    list-style: none;
+    position: relative;
+    left: 50%;
+}
+
+#contact-buttons li {
+	float: left;
+	position: relative;
+}
+
+#contact-buttons a{
+    text-decoration: none;
+    margin: 10px;
+    float: left;
+    padding: 2px 5px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#contact-buttons a:hover {
+	border: 2px outset;
+	color: red;
+	background: #f2f2f2;
+}
+
+#contact-buttons a:active {
+	border: 2px inset;
+	color: darkred;
+	background: #f2f2f2;
+}
+
 .icon-html5:before, .icon-css3:before, .icon-js:before, .icon-jquery:before, .icon-react:before, .icon-nodejs:before, .icon-express:before, .icon-mongodb:before, .icon-postgres:before, .icon-heroku:before, .icon-github-circle-alt:before {
 	margin-right: 20px;
 	margin-bottom: 20px;
