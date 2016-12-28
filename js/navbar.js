@@ -1,5 +1,5 @@
 $(() => {
-    $(window).scroll(() => {
+    $(window).on("load scroll",() => {
         let scrollPosition = $(window).scrollTop(),
             aboutPosition = $('#about-me').offset().top,
             projectsPosition = $('#projects').offset().top,
