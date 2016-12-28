@@ -41,3 +41,7 @@ nav {
   color: #AA3939;
   text-decoration: none;
 }
+
+.currentSectionColor {
+  background-color: #23251F;
+}
