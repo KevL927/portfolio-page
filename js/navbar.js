@@ -1,15 +1,17 @@
 $(() => {
     $(window).on("load scroll",() => {
         let scrollPosition = $(window).scrollTop(),
+            scrollToBottom = scrollPosition + $(window).height(),
+            overallContentHeight = $(document).height(),
             aboutPosition = $('#about-me').offset().top,
             projectsPosition = $('#projects').offset().top,
-            contactMePosition = 6122;
+            contactMePosition = $(window).scrollTop() + $(window).height();
 
         if (scrollPosition >= aboutPosition && scrollPosition < projectsPosition) {
           addRemoveClass('#about-me-nav', '#intro-nav', '#projects-nav');
-        } else if (scrollPosition >= projectsPosition && scrollPosition < contactMePosition) {
+        } else if (scrollPosition >= projectsPosition && scrollToBottom < overallContentHeight) {
             addRemoveClass('#projects-nav', '#about-me-nav', '#contact-me-nav');
-        } else if (scrollPosition >= contactMePosition) {
+        } else if (scrollToBottom === overallContentHeight) {
             addRemoveClass('#contact-me-nav', '#projects-nav');
         } else {
             addRemoveClass('#intro-nav', '#about-me-nav');
