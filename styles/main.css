@@ -76,7 +76,7 @@ ul ul {
 }
 
 .name {
-	margin-top: 20px;
+	margin-top: 70px;
 	margin-bottom: 20px;
 }
 
@@ -90,8 +90,6 @@ ul ul {
 	width: 20px;
 	height: auto;
 	margin: 200px auto 60px auto;
-	cursor: pointer;
-	cursor: hand;
 	display: block;
 }
 
@@ -108,7 +106,6 @@ ul ul {
 .profile-pic {
   width: 200px;
   height: auto;
-  /*float: left;*/
   margin-right: 20px;
   display: block;
   margin: 0 auto;
@@ -123,6 +120,7 @@ ul ul {
 .list, .software-list {
 	list-style-type: none;
 	font-family: goudy-bookletter;
+	font-size: 20px;
 }
 
 .software-list li {
@@ -139,7 +137,7 @@ ul ul {
 }
 
 .list-title {
-	font-size: 16px;
+	font-size: 22px;
 }
 
 .fa {
@@ -192,10 +190,17 @@ ul ul {
 	font-size: 24px;
 }
 
-.contact-title {
+.contact-title, .contact-subtitle {
 	color: #AA3939;
-	font-size: 40px;
 	text-align: center;
+}
+
+.contact-title {
+	font-size: 40px;
+}
+
+.contact-subtitle {
+	font-size: 34px;
 }
 
 #contact-buttons {

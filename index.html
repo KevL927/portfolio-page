@@ -5,10 +5,19 @@
         <link rel="stylesheet" type="text/css" href="styles/normalize.css">
         <link rel="stylesheet" href="styles/technology-icons.css">
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Vollkorn">
+        <link rel="stylesheet" type="text/css" href="styles/navbar.css">
         <link rel="stylesheet" type="text/css" href="styles/main.css">
     </head>
     <body>
         <nav>
+          <div id="sticky-nav-bar">
+            <ul>
+              <li><span id="intro-nav" class="nav-link" title="To Main">KEVIN</span></li>
+              <li><span id="about-me-nav" class="nav-link" title="To About Me">About Me</span></li>
+              <li><span id="projects-nav" class="nav-link" title="To Projects">Projects</span></li>
+              <li><span id="contact-me-nav" class="nav-link" title="To Contact Me">Contact Me</span></li>
+            </ul>
+          </div>
         </nav>
         <section id="intro">
             <div id="intro-content">
@@ -27,7 +36,7 @@
                     <em class="icon-github-circle-alt"></em>
                     <em class="icon-heroku"></em>
                 </div>
-                <img class="arrow" src="img/double-down-arrow-white.svg" alt="intro down arrow">
+                <img class="arrow nav-link" src="img/double-down-arrow-white.svg" alt="To About Me">
             </div>
         </section>
         <section id="about-me">
@@ -107,7 +116,7 @@
                     <li>IT Specialist Intern</li>
                   </ul>
             </ul>
-            <img class="arrow even-num" src="img/double-down-arrow-black.svg" alt="about me down arrow">
+            <img class="arrow nav-link even-num" src="img/double-down-arrow-black.svg" alt="To Projects">
           </div>
         </section>
         <section id="projects">
@@ -115,7 +124,7 @@
             <p class="title section-title">Projects</p>
             <div class="single-project">
               <p class="project-title">Sync-In</p>
-              <img class="project-screenshot" src="img/sync-in-screenshot.jpeg" title="Sync-In screenshot">
+              <img class="project-screenshot" src="img/sync-in-screenshot.jpeg" alt="Sync-In screenshot">
               <div class="project-tech">
                 <span>React</span>
                 <span>Redux</span>
@@ -130,7 +139,7 @@
             </div>
             <div class="single-project">
               <p class="project-title">Sync-In</p>
-              <img class="project-screenshot" src="img/sync-in-screenshot.jpeg" title="Sync-In screenshot">
+              <img class="project-screenshot" src="img/sync-in-screenshot.jpeg" alt="Sync-In screenshot">
               <div class="project-tech">
                 <span>React</span>
                 <span>Redux</span>
@@ -145,7 +154,7 @@
             </div>
             <div class="single-project">
               <p class="project-title">Sync-In</p>
-              <img class="project-screenshot" src="img/sync-in-screenshot.jpeg" title="Sync-In screenshot">
+              <img class="project-screenshot" src="img/sync-in-screenshot.jpeg" alt="Sync-In screenshot">
               <div class="project-tech">
                 <span>React</span>
                 <span>Redux</span>
@@ -157,13 +166,14 @@
                 <i class="fa fa-info-circle" aria-hidden="true"></i>
                 Et ac augue rutrum. Rutrum tellus mattis accumsan nec sit montes nam dictum lorem arcu hymenaeos, risus diam facilisi curabitur tempor Metus rutrum a elementum.Habitant nonummy risus cras est etiam ultrices commodo.</p>
               </div>
-              <img class="arrow" src="img/double-down-arrow-white.svg" alt="projects down arrow">
+              <img class="arrow nav-link" src="img/double-down-arrow-white.svg" alt="To Contact Me">
             </div>
           </div>
         </section>
         <footer id=contact-me>
           <div class="content">
             <p class="contact-title">Get In Touch</p>
+            <p class="contact-subtitle">Contact Me @</p>
             <div id="contact-buttons">
               <ul>
                 <li><a href="mailto:leekevin927@gmail.com"><i class="fa fa-envelope fa-4x" aria-hidden="true"></i></a></li>
@@ -175,6 +185,7 @@
         </footer>
         <script src="https://use.fontawesome.com/395dd0fa09.js"></script>
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="js/navbar.js"></script>
         <script src="js/findNextSection.js"></script>
         <script src="js/main.js"></script>
     </body>
