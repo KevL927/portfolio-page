@@ -1,6 +1,6 @@
-$(() => {
-    $(window).on("load scroll",() => {
-        let scrollPosition = $(window).scrollTop(),
+$(document).ready(function() {
+    $(window).on("load scroll", function() {
+        var scrollPosition = $(window).scrollTop(),
             scrollToBottom = scrollPosition + $(window).height(),
             overallContentHeight = $(document).height(),
             aboutPosition = $('#about-me').offset().top,

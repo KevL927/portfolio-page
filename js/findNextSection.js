@@ -1,4 +1,4 @@
-let findNextSection = clickedTarget => {
+var findNextSection = function(clickedTarget) {
   if(clickedTarget === 'To Main') {
     return '#intro';
   } else if(clickedTarget === 'To About Me') {
