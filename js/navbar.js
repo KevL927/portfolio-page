@@ -21,11 +21,8 @@ $(document).ready(function() {
 
 function addRemoveClass (addClassToId, removeClassFromId1, removeClassFromId2) {
   if (removeClassFromId2) {
-    $(removeClassFromId1).removeClass('currentSectionColor');
     $(removeClassFromId2).removeClass('currentSectionColor');
-    $(addClassToId).addClass('currentSectionColor');
-  } else {
+  }
     $(removeClassFromId1).removeClass('currentSectionColor');
     $(addClassToId).addClass('currentSectionColor');
-  }
 }
