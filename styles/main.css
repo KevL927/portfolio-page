@@ -220,9 +220,33 @@ ul ul {
 }
 
 .project-title {
+	margin-bottom: 5px;
+}
+
+.project-title p {
 	color:  #AA3939;
 	font-size: 34px;
-	margin-bottom: 5px;
+	margin: 0px;
+}
+
+.project-links li {
+  display: inline-block;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+.project-links i {
+	font-size: 38px;
+  color: #001F3F;
+  -webkit-transition: color 2s ease-out;
+  -moz-transition: color 2s ease-out;
+  -o-transition: color 2s ease-out;
+  transition: color 2s ease-out;
+}
+
+.project-links i:hover {
+  color: red;
+  cursor: pointer;
 }
 
 .project-tech span:nth-child(odd) {
@@ -230,6 +254,9 @@ ul ul {
 	color: #AA3939;
 	font-family: serif;
 	font-size: 18px;
+	border-radius: 2px;
+	padding: 2px;
+	margin: 4px;
 }
 
 .project-detail {
@@ -271,6 +298,7 @@ ul ul {
 .col-3, .col-4, .col-6, .col-12 {
   width: 100%;
 }
+
 
 @media (min-width: 494) {
 	.subtitle {font-size: 60px;}
