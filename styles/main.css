@@ -70,6 +70,45 @@ ul ul {
 	background-color: #F5EEE2;
 }
 
+#contact-buttons {
+  float: right;
+  position: relative;
+  left: -52%;
+  text-align: left;
+}
+
+#contact-buttons ul {
+  list-style: none;
+  position: relative;
+  left: 50%;
+}
+
+#contact-buttons li {
+	float: left;
+	position: relative;
+}
+
+#contact-buttons a{
+  text-decoration: none;
+  margin: 10px;
+  float: left;
+  padding: 2px 5px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#contact-buttons a:hover {
+	border: 2px outset;
+	color: red;
+	background: #f2f2f2;
+}
+
+#contact-buttons a:active {
+	border: 2px inset;
+	color: darkred;
+	background: #f2f2f2;
+}
+
 .title {
 	color: #AA3939;
 	font-size: 100px;
@@ -83,7 +122,7 @@ ul ul {
 .subtitle {
 	margin-top: 50px;
 	color: #F5EEE2;
-	font-size: 60px;
+	font-size: 48px;
 }
 
 .arrow {
@@ -202,51 +241,17 @@ ul ul {
 	text-align: center;
 }
 
+.contact-title, .contact-subtitle {
+	font-family: serif;
+	font-weight: bolder;
+}
+
 .contact-title {
-	font-size: 40px;
+	font-size: 44px;
 }
 
 .contact-subtitle {
-	font-size: 34px;
-}
-
-#contact-buttons {
-    float: right;
-    position: relative;
-    left: -52%;
-    text-align: left;
-}
-
-#contact-buttons ul {
-    list-style: none;
-    position: relative;
-    left: 50%;
-}
-
-#contact-buttons li {
-	float: left;
-	position: relative;
-}
-
-#contact-buttons a{
-    text-decoration: none;
-    margin: 10px;
-    float: left;
-    padding: 2px 5px;
-    text-align: center;
-    white-space: nowrap;
-}
-
-#contact-buttons a:hover {
-	border: 2px outset;
-	color: red;
-	background: #f2f2f2;
-}
-
-#contact-buttons a:active {
-	border: 2px inset;
-	color: darkred;
-	background: #f2f2f2;
+	font-size: 28px;
 }
 
 .icon-html5:before, .icon-css3:before, .icon-js:before, .icon-jquery:before, .icon-react:before, .icon-nodejs:before, .icon-express:before, .icon-mongodb:before, .icon-postgres:before, .icon-heroku:before, .icon-github-circle-alt:before {
@@ -262,9 +267,21 @@ ul ul {
   padding-right: 1.04166666%;
 }
 
-/* For mobile: */
+/* For mobile devices */
 .col-3, .col-4, .col-6, .col-12 {
   width: 100%;
+}
+
+@media (min-width: 494) {
+	.subtitle {font-size: 60px;}
+	#sticky-nav-bar {height: 46px;}
+	.nav-link{font-size: 24px;}
+}
+
+@media (min-width: 516px) {
+	.subtitle {font-size: 60px;}
+	#sticky-nav-bar {height: 46px;}
+	.nav-link{font-size: 24px;}
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -281,6 +298,10 @@ ul ul {
  .col-m-10 {width: 83.33%;}
  .col-m-11 {width: 91.66%;}
  .col-m-12 {width: 100%;}
+ .subtitle {font-size: 60px;}
+ .profile-pic {max-height: 480px; width: auto;}
+ #sticky-nav-bar {height: 46px;}
+ .nav-link{font-size: 24px;}
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -297,7 +318,13 @@ ul ul {
 	.col-10 {width: 83.33%;}
 	.col-11 {width: 91.66%;}
 	.col-12 {width: 100%;}
+	.subtitle {font-size: 60px;}
 	.profile-pic {max-height: 480px; width: auto;}
+	.change-order {display: flex;}
+	.change-order img{order: 2;}
+	.change-order .project-info {order: 1;}
+ 	#sticky-nav-bar {height: 46px;}
+	.nav-link{font-size: 24px;}
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -314,5 +341,11 @@ ul ul {
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+	.subtitle {font-size: 60px;}
 	.profile-pic {max-height: 480px; width: auto;}
+	.change-order {display: flex;}
+	.change-order img{order: 2;}
+	.change-order .project-info {order: 1;}
+ 	#sticky-nav-bar {height: 46px;}
+	.nav-link{font-size: 24px;}
 }
