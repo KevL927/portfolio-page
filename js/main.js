@@ -1,9 +1,10 @@
-$(document).ready(() => {
+$(document).ready(function() {
 
-  $('.arrow').click(event => {
+  $('.nav-link').click(function(event) {
+    var clickedTarget = event.target.alt || event.target.title;
     $('html,body').animate(
       {
-        scrollTop: $(findNextSection(event.target.alt)).offset().top
+        scrollTop: $(findNextSection(clickedTarget)).offset().top
       },
         1000
      );
