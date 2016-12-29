@@ -175,7 +175,7 @@ ul ul {
 }
 
 .list-title, .list-subtitle, .project-tech span {
-	font-family: Vollkorn;
+	font-family: 'Vollkorn', serif;
 	font-weight: bolder;
 }
 
