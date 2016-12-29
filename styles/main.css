@@ -70,28 +70,65 @@ ul ul {
 	background-color: #F5EEE2;
 }
 
+#contact-buttons {
+  float: right;
+  position: relative;
+  left: -52%;
+  text-align: left;
+}
+
+#contact-buttons ul {
+  list-style: none;
+  position: relative;
+  left: 50%;
+}
+
+#contact-buttons li {
+	float: left;
+	position: relative;
+}
+
+#contact-buttons a{
+  text-decoration: none;
+  margin: 10px;
+  float: left;
+  padding: 2px 5px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#contact-buttons a:hover {
+	border: 2px outset;
+	color: red;
+	background: #f2f2f2;
+}
+
+#contact-buttons a:active {
+	border: 2px inset;
+	color: darkred;
+	background: #f2f2f2;
+}
+
 .title {
 	color: #AA3939;
 	font-size: 100px;
 }
 
 .name {
-	margin-top: 20px;
+	margin-top: 70px;
 	margin-bottom: 20px;
 }
 
 .subtitle {
 	margin-top: 50px;
 	color: #F5EEE2;
-	font-size: 60px;
+	font-size: 48px;
 }
 
 .arrow {
 	width: 20px;
-	height: auto;
+	height: 20px;
 	margin: 200px auto 60px auto;
-	cursor: pointer;
-	cursor: hand;
 	display: block;
 }
 
@@ -99,7 +136,7 @@ ul ul {
 	color: black;
 }
 
-.page-title {
+.section-title {
 	margin-top: 70px;
 	margin-bottom: 50px;
 	text-align: center;
@@ -108,7 +145,6 @@ ul ul {
 .profile-pic {
   width: 200px;
   height: auto;
-  /*float: left;*/
   margin-right: 20px;
   display: block;
   margin: 0 auto;
@@ -116,20 +152,25 @@ ul ul {
 
 .about-me-pg {
 	font-size: 25px;
-	text-align: center;
+	text-align: justify;
   font-family: goudy-bookletter;
+}
+
+.p-1 {
+	text-indent: 1em;
 }
 
 .list, .software-list {
 	list-style-type: none;
 	font-family: goudy-bookletter;
+	font-size: 20px;
 }
 
 .software-list li {
 	margin-bottom: 6px;
 }
 
-.num-fix {
+.font-fix {
 	font-family: serif;
 }
 
@@ -139,7 +180,7 @@ ul ul {
 }
 
 .list-title {
-	font-size: 16px;
+	font-size: 22px;
 }
 
 .fa {
@@ -149,32 +190,100 @@ ul ul {
 .complete-year {
 	margin-left: 10px;
 	color: gray;
+	font-size: 16px;
 }
 
 .single-project {
-	margin-bottom: 30px;
+	margin-bottom: 50px;
+	padding: 20px;
+	border-radius: 4px;
+	background: rgb(153,153,153);
+  background: rgba(153,153,153,0.8);
 }
 
-.project-screenshot, .project-tech, .project-detail {
-	width: 350px;
+.project-title, .project-screenshot, .project-tech, .project-detail {
 	height: auto;
 	display: block;
-	margin: 0 auto;
 	padding: 10px;
 	background-color: #F5EEE2;
+}
+
+.project-screenshot {
 	border-radius: 20px;
 }
 
-.project-tech, .project-detail {
+.project-title, .project-tech, .project-detail {
 	margin-top: 5px;
 	border-radius: 5px;
 	font-family: goudy-bookletter;
 	text-align: center;
 }
 
-.project-tech span {
-	background-color: #23251F;
+.project-title {
+	margin-bottom: 5px;
+}
+
+.project-title p {
 	color:  #AA3939;
+	font-size: 34px;
+	margin: 0px;
+}
+
+.project-links li {
+  display: inline-block;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+.project-links i {
+	font-size: 38px;
+  color: #001F3F;
+  -webkit-transition: color 2s ease-out;
+  -moz-transition: color 2s ease-out;
+  -o-transition: color 2s ease-out;
+  transition: color 2s ease-out;
+}
+
+.project-links .fa-github:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.project-links .fa-chevron-circle-up:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.project-tech span:nth-child(odd) {
+	background-color: #23251F;
+	color: #AA3939;
+	font-family: serif;
+	font-size: 18px;
+	border-radius: 2px;
+	padding: 2px;
+	margin: 4px;
+}
+
+.project-detail {
+	font-size: 24px;
+}
+
+.contact-title, .contact-subtitle {
+	color: #AA3939;
+	text-align: center;
+}
+
+.contact-title, .contact-subtitle {
+	font-family: serif;
+	font-weight: bolder;
+}
+
+.contact-title {
+	font-size: 44px;
+}
+
+.contact-subtitle {
+	font-size: 28px;
 }
 
 .icon-html5:before, .icon-css3:before, .icon-js:before, .icon-jquery:before, .icon-react:before, .icon-nodejs:before, .icon-express:before, .icon-mongodb:before, .icon-postgres:before, .icon-heroku:before, .icon-github-circle-alt:before {
@@ -182,4 +291,94 @@ ul ul {
 	margin-bottom: 20px;
 	color: lightgray;
 	font-size: 50px;
+}
+
+.col-3, .col-4, .col-6, .col-12 {
+  float: left;
+  padding-left: 1.04166666%;
+  padding-right: 1.04166666%;
+}
+
+/* For mobile devices */
+.col-3, .col-4, .col-6, .col-12 {
+  width: 100%;
+}
+
+
+@media (min-width: 494) {
+	.subtitle {font-size: 60px;}
+	#sticky-nav-bar {height: 46px;}
+	.nav-link{font-size: 24px;}
+}
+
+@media (min-width: 516px) {
+	.subtitle {font-size: 60px;}
+	#sticky-nav-bar {height: 46px;}
+	.nav-link{font-size: 24px;}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+ .col-m-1 {width: 8.33%;}
+ .col-m-2 {width: 16.66%;}
+ .col-m-3 {width: 25%;}
+ .col-m-4 {width: 33.33%;}
+ .col-m-5 {width: 41.66%;}
+ .col-m-6 {width: 50%;}
+ .col-m-7 {width: 58.33%;}
+ .col-m-8 {width: 66.66%;}
+ .col-m-9 {width: 75%;}
+ .col-m-10 {width: 83.33%;}
+ .col-m-11 {width: 91.66%;}
+ .col-m-12 {width: 100%;}
+ .subtitle {font-size: 60px;}
+ .profile-pic {max-height: 480px; width: auto;}
+ #sticky-nav-bar {height: 46px;}
+ .nav-link{font-size: 24px;}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%; margin: auto;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%; margin: auto;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+	.subtitle {font-size: 60px;}
+	.profile-pic {max-height: 480px; width: auto;}
+	.change-order {display: flex;}
+	.change-order img{order: 2;}
+	.change-order .project-info {order: 1;}
+ 	#sticky-nav-bar {height: 46px;}
+	.nav-link{font-size: 24px;}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%; margin: auto;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%; margin: auto;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+	.subtitle {font-size: 60px;}
+	.profile-pic {max-height: 480px; width: auto;}
+	.change-order {display: flex;}
+	.change-order img{order: 2;}
+	.change-order .project-info {order: 1;}
+ 	#sticky-nav-bar {height: 46px;}
+	.nav-link{font-size: 24px;}
 }
