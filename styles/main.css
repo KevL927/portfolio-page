@@ -289,8 +289,10 @@ ul ul {
 .icon-html5:before, .icon-css3:before, .icon-js:before, .icon-jquery:before, .icon-react:before, .icon-nodejs:before, .icon-express:before, .icon-mongodb:before, .icon-postgres:before, .icon-heroku:before, .icon-github-circle-alt:before {
 	margin-right: 20px;
 	margin-bottom: 20px;
-	color: lightgray;
+	width: 50px;
+	height: 50px;
 	font-size: 50px;
+	color: lightgray;
 }
 
 .col-3, .col-4, .col-6, .col-12 {
