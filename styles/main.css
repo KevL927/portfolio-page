@@ -244,8 +244,13 @@ ul ul {
   transition: color 2s ease-out;
 }
 
-.project-links i:hover {
+.project-links .fa-github:hover {
   color: red;
+  cursor: pointer;
+}
+
+.project-links .fa-chevron-circle-up:hover {
+  color: green;
   cursor: pointer;
 }
 
