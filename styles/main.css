@@ -208,15 +208,18 @@ ul ul {
 	background-color: #F5EEE2;
 }
 
-.project-screenshot {
-	border-radius: 20px;
-}
-
 .project-title, .project-tech, .project-detail {
 	margin-top: 5px;
 	border-radius: 5px;
-	font-family: goudy-bookletter;
 	text-align: center;
+}
+
+.project-title, .project-detail {
+	font-family: goudy-bookletter;
+}
+
+.project-screenshot {
+	border-radius: 20px;
 }
 
 .project-title {
@@ -257,7 +260,7 @@ ul ul {
 .project-tech span:nth-child(odd) {
 	color: #AA3939;
 	font-family: 'Vollkorn', serif;
-	font-size: 18px;
+	font-size: 22px;
 	border-radius: 2px;
 	padding: 2px;
 	margin: 4px;
