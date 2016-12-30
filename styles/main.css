@@ -282,10 +282,6 @@ ul ul {
 	font-size: 44px;
 }
 
-.contact-subtitle {
-	font-size: 28px;
-}
-
 .icon-html5:before, .icon-css3:before, .icon-js:before, .icon-jquery:before, .icon-react:before, .icon-nodejs:before, .icon-express:before, .icon-mongodb:before, .icon-postgres:before, .icon-heroku:before, .icon-github-circle-alt:before {
 	margin-right: 20px;
 	margin-bottom: 20px;
