@@ -71,42 +71,26 @@ ul ul {
 }
 
 #contact-buttons {
-  float: right;
-  position: relative;
-  left: -52%;
-  text-align: left;
+	text-align: center;
 }
 
-#contact-buttons ul {
-  list-style: none;
-  position: relative;
-  left: 50%;
+#contact-buttons a {
+	margin: auto 20px;
 }
 
-#contact-buttons li {
-	float: left;
-	position: relative;
+#contact-buttons i {
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
 }
 
-#contact-buttons a{
-  text-decoration: none;
-  margin: 10px;
-  float: left;
-  padding: 2px 5px;
-  text-align: center;
-  white-space: nowrap;
+#contact-buttons i:hover {
+	color: #00BFFF;
 }
 
-#contact-buttons a:hover {
-	border: 2px outset;
-	color: red;
-	background: #f2f2f2;
-}
-
-#contact-buttons a:active {
-	border: 2px inset;
-	color: darkred;
-	background: #f2f2f2;
+#contact-buttons i:active {
+	color: #1E90FF;
 }
 
 .title {
@@ -123,6 +107,15 @@ ul ul {
 	margin-top: 50px;
 	color: #F5EEE2;
 	font-size: 48px;
+}
+
+.icon-html5:before, .icon-css3:before, .icon-js:before, .icon-jquery:before, .icon-react:before, .icon-nodejs:before, .icon-express:before, .icon-mongodb:before, .icon-postgres:before, .icon-heroku:before, .icon-github-circle-alt:before {
+	margin-right: 20px;
+	margin-bottom: 20px;
+	width: 50px;
+	height: 50px;
+	font-size: 50px;
+	color: lightgray;
 }
 
 .arrow {
@@ -220,10 +213,11 @@ ul ul {
 
 .project-screenshot {
 	opacity: 1;
-	transition: opacity .25s ease-in-out;
-	-moz-transition: opacity .25s ease-in-out;
-	-webkit-transition: opacity .25s ease-in-out;
 	border-radius: 20px;
+	-webkit-transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-o-transition: color 2s ease-out;
+	transition: opacity .25s ease-in-out;
 }
 
 .project-screenshot:hover {
@@ -278,27 +272,12 @@ ul ul {
 	font-size: 24px;
 }
 
-.contact-title, .contact-subtitle {
+.contact-title {
 	color: #AA3939;
 	text-align: center;
-}
-
-.contact-title, .contact-subtitle {
 	font-family: serif;
 	font-weight: bolder;
-}
-
-.contact-title {
 	font-size: 44px;
-}
-
-.icon-html5:before, .icon-css3:before, .icon-js:before, .icon-jquery:before, .icon-react:before, .icon-nodejs:before, .icon-express:before, .icon-mongodb:before, .icon-postgres:before, .icon-heroku:before, .icon-github-circle-alt:before {
-	margin-right: 20px;
-	margin-bottom: 20px;
-	width: 50px;
-	height: 50px;
-	font-size: 50px;
-	color: lightgray;
 }
 
 .col-3, .col-4, .col-6, .col-12 {
