@@ -255,9 +255,8 @@ ul ul {
 }
 
 .project-tech span:nth-child(odd) {
-	background-color: #23251F;
 	color: #AA3939;
-	font-family: serif;
+	font-family: 'Vollkorn', serif;
 	font-size: 18px;
 	border-radius: 2px;
 	padding: 2px;
