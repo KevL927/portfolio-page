@@ -362,7 +362,7 @@ ul ul {
 	.subtitle {font-size: 60px;}
 	.profile-pic {max-height: 480px; width: auto;}
 	.change-order {display: flex;}
-	.change-order .project-screenshot {order: 2;}
+	.change-order a {order: 2;}
 	.change-order .project-info {order: 1;}
  	#sticky-nav-bar {height: 46px;}
 	.nav-link{font-size: 24px;}
@@ -385,7 +385,7 @@ ul ul {
 	.subtitle {font-size: 60px;}
 	.profile-pic {max-height: 480px; width: auto;}
 	.change-order {display: flex;}
-	.change-order .project-screenshot {order: 2;}
+	.change-order a {order: 2;}
 	.change-order .project-info {order: 1;}
  	#sticky-nav-bar {height: 46px;}
 	.nav-link{font-size: 24px;}
