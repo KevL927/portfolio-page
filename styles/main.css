@@ -36,7 +36,7 @@ body {
   font-family: leaguegothic;
 }
 
-header, section {
+header, section, footer {
 	width: 100%;
 	padding: 80px 7%;
 	display: table;
@@ -75,27 +75,18 @@ ul ul {
 	line-height: 1.5;
 }
 
+#contact-me {
+	background-color: #F5EEE2;
+}
+
 #contact-buttons {
 	text-align: center;
 }
 
 #contact-buttons a {
+	display: inline-block;
 	margin: auto 20px;
-}
-
-#contact-buttons i {
-	-webkit-transition: all 0.3s ease 0s;
-	-moz-transition: all 0.3s ease 0s;
-	-o-transition: all 0.3s ease 0s;
-	transition: all 0.3s ease 0s;
-}
-
-#contact-buttons i:hover {
-	color: #00BFFF;
-}
-
-#contact-buttons i:active {
-	color: #1E90FF;
+	text-decoration: none;
 }
 
 .title {
@@ -249,12 +240,24 @@ ul ul {
 	font-size: 24px;
 }
 
-.contact-title {
-	color: #AA3939;
-	text-align: center;
-	font-family: serif;
-	font-weight: bolder;
-	font-size: 44px;
+.link-color-change {
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+
+.link-color-change:hover {
+	color: #00BFFF;
+}
+
+.link-color-change:active {
+	color: #1E90FF;
+}
+
+.link-text {
+	display: block;
+	font-size: 24px;
 }
 
 .col-3, .col-4, .col-6, .col-12 {
