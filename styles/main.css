@@ -162,21 +162,12 @@ ul ul {
 .single-project {
 	margin-bottom: 50px;
 	padding: 20px;
-	border-radius: 4px;
-	background: rgb(153,153,153);
-  background: rgba(153,153,153,0.8);
-}
-
-.project-title, .project-screenshot, .project-tech, .project-detail {
-	height: auto;
-	display: block;
-	padding: 10px;
-	background-color: #F5EEE2;
+	background: rgb(245,238,226);
+  background: rgba(245,238,226,0.8);
 }
 
 .project-title, .project-tech, .project-detail {
 	margin-top: 5px;
-	border-radius: 5px;
 	text-align: center;
 }
 
@@ -186,7 +177,6 @@ ul ul {
 
 .project-screenshot {
 	opacity: 1;
-	border-radius: 20px;
 	-webkit-transition: opacity .25s ease-in-out;
 	-moz-transition: opacity .25s ease-in-out;
 	-o-transition: color 2s ease-out;
@@ -236,7 +226,6 @@ ul ul {
 	color: #AA3939;
 	font-family: 'Vollkorn', serif;
 	font-size: 22px;
-	border-radius: 2px;
 	padding: 2px;
 	margin: 4px;
 }
