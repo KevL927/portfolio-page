@@ -10,41 +10,18 @@
         <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
         <title>Kevin Lee's Portfolio Page</title>
         <link rel="stylesheet" type="text/css" href="styles/normalize.css">
-        <link rel="stylesheet" href="styles/technology-icons.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vollkorn">
-        <link rel="stylesheet" type="text/css" href="styles/navbar.css">
         <link rel="stylesheet" type="text/css" href="styles/main.css">
     </head>
     <body>
-        <nav>
-          <div id="sticky-nav-bar">
-            <ul>
-              <li id="about-me-nav"><span class="nav-link" title="To About Me">About Me</span></li>
-              <li id="projects-nav"><span class="nav-link" title="To Projects">Projects</span></li>
-              <li id="contact-me-nav"><span class="nav-link" title="To Contact Me">Contact Me</span></li>
-            </ul>
-          </div>
-        </nav>
-        <section id="intro">
+        <header id="intro">
           <div id="intro-content">
+              <img id="intro-pic" src="img/main-profile-pic.png" alt="My profile pic">
+              <a href="mailto:leekevin927@gmail.com"><i class="fa fa-envelope fa-4x" aria-hidden="true"></i></a>
               <p class="name title">Kevin Lee</p>
               <p class="subtitle">Full Stack Web Developer</p>
-              <div id="tech-icons">
-                  <em class="icon-html5"></em>
-                  <em class="icon-css3"></em>
-                  <em class="icon-js"></em>
-                  <em class="icon-jquery"></em>
-                  <em class="icon-react"></em><br>
-                  <em class="icon-nodejs"></em>
-                  <em class="icon-express"></em>
-                  <em class="icon-mongodb"></em>
-                  <em class="icon-postgres"></em><br>
-                  <em class="icon-github-circle-alt"></em>
-                  <em class="icon-heroku"></em>
-              </div>
-              <img class="arrow nav-link" src="img/double-down-arrow-white.svg" alt="To About Me">
           </div>
-        </section>
+        </header>
         <section id="about-me">
           <div class="content">
             <p class="title section-title">About Me</p>
@@ -52,43 +29,9 @@
               <img class="profile-pic" src="img/kl-profile-pic-edited.jpeg" title="Kevin profile pic">
             </div>
             <div class="col-6">
-              <p class="about-me-pg p-1">Hello, my name is Kevin and I'm a full stack web developer. Currently, I use React/Redux, NodeJS, Express, MongoDB, Mongoose, PostgreSQL as my primary tools for building web apps.</p>
-              <p class="about-me-pg">Ever since I was a kid, I always enjoyed researching and figuring out how to get things to work, specifically involving computers, electronics and technologies. Also, I always take pleasure in becoming an early adapter to new technologies and discovering something new.</p>
+              <p class="about-me-pg p-1">Hello, my name is Kevin and I'm a full stack web developer.</p>
+              <p class="about-me-pg">Ever since I was a kid, I always enjoyed researching and figuring out how to get things to work, specifically involving computer software, hardware and electronics. Also, I always take pleasure in becoming an early adapter to new technologies and discovering something new.</p>
               <p class="about-me-pg">Having previous experiences working in the IT field, I'm disciplined to adapt to changes whenever new environment and technologies arise. Also, I'm flexible working individually and as part of a team, understanding the importance of communication.</p>
-            </div>
-            <hr class="col-12"/>
-            <div class="col-4">
-              <i class="fa fa-code fa-2x" aria-hidden="true"></i>
-              <hX>Skillset:</hX>
-              <ul class="list">
-                  <li><span class="list-subtitle">Language:</span> HTML<span class="font-fix">5</span>, CSS<span class="font-fix">3</span>, JavaScript in ES<span class="font-fix">5</span>/ES6</li>
-                  <li><span class="list-subtitle">Framework:</span> React, Redux, Express, Express</li>
-                  <li><span class="list-subtitle">Database:</span> MongoDB, Mongoose, PostgreSQL, Knex, SQL, NoSQL</li>
-                  <li><span class="list-subtitle">Test-Driven Development:</span> Mocha, Chai</li>
-                  <li><span class="list-subtitle">Web Services:</span> Git/GitHub, Heroku, mLab, Cloud9</li>
-                  <li><span class="list-subtitle">Other:</span> NodeJS, jQuery</li>
-              </ul>
-            </div>
-            <div class="col-4">
-              <i class="fa fa-floppy-o fa-2x" aria-hidden="true"></i>
-              <hX>Software:</hX>
-              <ul class="software-list">
-                  <li><span class="list-subtitle">Text Editors:</span> Atom, Sublime</li>
-                  <li><span class="list-subtitle">Web Tools:</span> Postman, Git/GitHub</li>
-                  <li><span class="list-subtitle">Project Management:</span> Trello</li>
-                  <li><span class="list-subtitle">Office Suite:</span> Microsoft Office 2003, 2007, 2010, 2013, 2016(Word, Excel, PowerPoint, Outlook)</li>
-                  <li><span class="list-subtitle">Imaging Tools:</span> Norton Ghost, Acronis True Image, Deep Freeze, Reboot Restore RX</li>
-                  <li><span class="list-subtitle">Remote Desktop:</span> ScreenHero, RDP, LogMeIn, TeamViewer, Bomgar, GoToMyPc, Dameware Mini Remote Control, Zoom</li>
-              </ul>
-            </div>
-            <div class="col-4">
-              <i class="fa fa-desktop fa-2x" aria-hidden="true"></i>
-              <hX>O/S:</hX>
-              <ul class="list">
-                <li>Windows XP/7/8/10</li>
-                <li>Mac OS X 6/7/8/9/10</li>
-                <li>Windows Server 2003/2008/2012</li>
-              </ul>
             </div>
             <hr class="col-12"/>
             <div class="col-12">
@@ -247,7 +190,6 @@
         </footer>
         <script src="https://use.fontawesome.com/395dd0fa09.js"></script>
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-        <script src="js/navbar.js"></script>
         <script src="js/findNextSection.js"></script>
         <script src="js/main.js"></script>
     </body>
