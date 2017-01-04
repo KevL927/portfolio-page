@@ -105,6 +105,11 @@ ul ul {
 	font-size: 48px;
 }
 
+.intro-link {
+	color: #F5EEE2;
+	text-decoration: none;
+}
+
 .section-title {
 	margin-top: 70px;
 	margin-bottom: 50px;
