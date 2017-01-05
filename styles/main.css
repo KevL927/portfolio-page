@@ -207,7 +207,6 @@ ul ul {
 	padding: 2px;
 	font-size: 18px;
   color: #001F3F;
-	/*vertical-align: middle; */
 	text-decoration: none;
   -webkit-transition: color 2s ease-out;
   -moz-transition: color 2s ease-out;
@@ -237,6 +236,10 @@ ul ul {
 
 .project-detail {
 	font-size: 24px;
+}
+
+.contact-link {
+	color: #001F3F;
 }
 
 .link-color-change {
@@ -269,7 +272,6 @@ ul ul {
 .col-3, .col-4, .col-6, .col-12 {
   width: 100%;
 }
-
 
 @media (min-width: 494) {
 	.subtitle {font-size: 60px;}
