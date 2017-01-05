@@ -239,7 +239,7 @@ ul ul {
 }
 
 .contact-link {
-	color: #001F3F;
+	color: #23251F;
 }
 
 .link-color-change {
@@ -250,11 +250,11 @@ ul ul {
 }
 
 .link-color-change:hover {
-	color: #00BFFF;
+	color: #AA3939;;
 }
 
 .link-color-change:active {
-	color: #1E90FF;
+	color: red;
 }
 
 .link-text {
