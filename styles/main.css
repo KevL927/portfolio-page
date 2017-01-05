@@ -163,15 +163,14 @@ ul ul {
 	margin-bottom: 50px;
 	padding: 20px;
 	background: rgb(245,238,226);
-  background: rgba(245,238,226,0.8);
 }
 
-.project-title, .project-tech, .project-detail {
+.project-title, .project-links, .project-tech, .project-detail {
 	margin-top: 5px;
 	text-align: center;
 }
 
-.project-title, .project-detail {
+.project-title, .project-links, .project-detail {
 	font-family: goudy-bookletter;
 }
 
@@ -203,22 +202,28 @@ ul ul {
 	padding-right: 20px;
 }
 
-.project-links i {
-	font-size: 38px;
+.project-links a {
+	border: 1px #001F3F solid;
+	padding: 2px;
+	font-size: 18px;
   color: #001F3F;
+	/*vertical-align: middle; */
+	text-decoration: none;
   -webkit-transition: color 2s ease-out;
   -moz-transition: color 2s ease-out;
   -o-transition: color 2s ease-out;
   transition: color 2s ease-out;
 }
 
-.project-links .fa-github:hover {
+.project-links .source-link:hover {
   color: red;
+	border-color: red;
   cursor: pointer;
 }
 
-.project-links .fa-chevron-circle-up:hover {
+.project-links .live-link:hover {
   color: green;
+	border-color: green;
   cursor: pointer;
 }
 
