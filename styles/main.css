@@ -61,11 +61,6 @@ ul ul {
 	text-decoration: none;
 }
 
-#intro-content, #projects-content, .content {
-  margin: auto;
-  max-width: 88%;
-}
-
 .title {
 	color: #AA3939;
 	font-size: 58px;
@@ -269,7 +264,7 @@ ul ul {
 }
 
 @media (min-width: 885px) {
-  #contact-buttons a {display: inline-block; margin: auto 20px; text-decoration: none;}
+  #contact-buttons a {display: inline-block; margin: auto 18px; text-decoration: none;}
   .contact-link-text {display: block; font-size: 18px;}
 }
 
@@ -292,6 +287,7 @@ ul ul {
 	.change-order {display: flex;}
 	.change-order a {order: 2;}
 	.change-order .project-info {order: 1;}
+  #intro-content, #projects-content, .content {margin: auto; max-width: 88%;}
 }
 
 /* Large devices (large desktops, 1200px and up) */
