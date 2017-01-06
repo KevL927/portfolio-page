@@ -252,7 +252,7 @@ ul ul {
   .col-m-10 {width: 83.33%;}
   .col-m-11 {width: 91.66%;}
   .col-m-12 {width: 100%;}
-  #about-me-story {margin: auto; max-width: 800px;}
+  #about-me-story {margin: auto; max-width: 65%;}
   #contact-buttons a {display: inline-block; margin: auto 78px; text-decoration: none;}
   .title {font-size: 90px;}
   .subtitle {font-size: 50px;}
