@@ -203,6 +203,10 @@ ul ul {
 	color: #23251F;
 }
 
+.contact-link-text {
+  display: none;
+}
+
 .link-color-change {
 	-webkit-transition: all 0.3s ease 0s;
 	-moz-transition: all 0.3s ease 0s;
@@ -236,26 +240,32 @@ ul ul {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
- .col-m-1 {width: 8.33%;}
- .col-m-2 {width: 16.66%;}
- .col-m-3 {width: 25%;}
- .col-m-4 {width: 33.33%;}
- .col-m-5 {width: 41.66%;}
- .col-m-6 {width: 50%;}
- .col-m-7 {width: 58.33%;}
- .col-m-8 {width: 66.66%;}
- .col-m-9 {width: 75%;}
- .col-m-10 {width: 83.33%;}
- .col-m-11 {width: 91.66%;}
- .col-m-12 {width: 100%;}
- #about-me-story {margin: auto; max-width: 800px;}
- .title {font-size: 90px;}
- .subtitle {font-size: 50px;}
- .profile-pic {max-height: 480px; width: auto;}
- .about-me-pg {font-size: 25px;}
- .list {font-size: 20px;}
- .list-title {font-size: 22px;}
- .complete-year {font-size: 16px;}
+  .col-m-1 {width: 8.33%;}
+  .col-m-2 {width: 16.66%;}
+  .col-m-3 {width: 25%;}
+  .col-m-4 {width: 33.33%;}
+  .col-m-5 {width: 41.66%;}
+  .col-m-6 {width: 50%;}
+  .col-m-7 {width: 58.33%;}
+  .col-m-8 {width: 66.66%;}
+  .col-m-9 {width: 75%;}
+  .col-m-10 {width: 83.33%;}
+  .col-m-11 {width: 91.66%;}
+  .col-m-12 {width: 100%;}
+  #about-me-story {margin: auto; max-width: 800px;}
+  #contact-buttons a {display: inline-block; margin: auto 78px; text-decoration: none;}
+  .title {font-size: 90px;}
+  .subtitle {font-size: 50px;}
+  .profile-pic {max-height: 480px; width: auto;}
+  .about-me-pg {font-size: 25px;}
+  .list {font-size: 20px;}
+  .list-title {font-size: 22px;}
+  .complete-year {font-size: 16px;}
+}
+
+@media (min-width: 885px) {
+  #contact-buttons a {display: inline-block; margin: auto 20px; text-decoration: none;}
+  .contact-link-text {display: block; font-size: 18px;}
 }
 
 /* Medium devices (desktops, 992px and up) */
