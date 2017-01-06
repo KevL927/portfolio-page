@@ -61,6 +61,11 @@ ul ul {
 	text-decoration: none;
 }
 
+#intro-content, #projects-content, .content {
+  margin: auto;
+  max-width: 88%;
+}
+
 .title {
 	color: #AA3939;
 	font-size: 58px;
