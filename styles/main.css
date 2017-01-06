@@ -63,7 +63,7 @@ ul ul {
 
 .title {
 	color: #AA3939;
-	font-size: 100px;
+	font-size: 58px;
 	font-weight: bold;
 }
 
@@ -75,7 +75,7 @@ ul ul {
 .subtitle {
 	margin-top: 50px;
 	color: #F5EEE2;
-	font-size: 48px;
+	font-size: 26px;
 }
 
 .intro-link {
@@ -235,14 +235,6 @@ ul ul {
   width: 100%;
 }
 
-@media (min-width: 494) {
-	.subtitle {font-size: 60px;}
-}
-
-@media (min-width: 516px) {
-	.subtitle {font-size: 60px;}
-}
-
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
  .col-m-1 {width: 8.33%;}
@@ -257,7 +249,8 @@ ul ul {
  .col-m-10 {width: 83.33%;}
  .col-m-11 {width: 91.66%;}
  .col-m-12 {width: 100%;}
- .subtitle {font-size: 60px;}
+ .title {font-size: 90px;}
+ .subtitle {font-size: 50px;}
  .profile-pic {max-height: 480px; width: auto;}
 }
 
@@ -275,6 +268,7 @@ ul ul {
 	.col-10 {width: 83.33%;}
 	.col-11 {width: 91.66%;}
 	.col-12 {width: 100%;}
+	.title {font-size:100px;}
 	.subtitle {font-size: 60px;}
 	.profile-pic {max-height: 480px; width: auto;}
 	.p-1	{margin-top: 0px;}
