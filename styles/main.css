@@ -165,10 +165,12 @@ ul ul {
 
 .project-links {
   text-align: center;
+  margin: 40px auto;
 }
 
 .project-links a {
-	border: 1px #AA3939 solid;
+  border-bottom: 2px solid transparent;
+	/*border: 1px #AA3939 solid;*/
   margin-right: 20px;
 	padding: 2px;
 	font-size: 24px;
@@ -181,15 +183,11 @@ ul ul {
 }
 
 .project-links .source-link:hover {
-  color: red;
-	border-color: red;
-  cursor: pointer;
+  border-bottom-color: #AA3939;
 }
 
 .project-links .live-link:hover {
-  color: green;
-	border-color: green;
-  cursor: pointer;
+  border-bottom-color: #AA3939;
 }
 
 .project-tech span:nth-child(odd) {
