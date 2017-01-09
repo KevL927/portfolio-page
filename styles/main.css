@@ -24,6 +24,10 @@ hX {
 	font-weight: bold;
 }
 
+hr {
+  margin: 40px auto;
+}
+
 ul ul {
 	margin-bottom: 10px;
 }
@@ -283,8 +287,6 @@ ul ul {
 	.col-11 {width: 91.66%;}
 	.col-12 {width: 100%;}
   #intro-content, #projects-content, .content {margin: auto; max-width: 88%;}
-	.title {font-size:100px;}
-	.subtitle {font-size: 60px;}
 	.change-order {display: flex;}
 	.change-order a {order: 2;}
 	.change-order .project-info {order: 1; margin-top: 0;}
