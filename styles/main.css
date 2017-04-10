@@ -76,17 +76,19 @@ ul ul {
 	max-width: 90%;
 }
 
-#contact-me .content {
-	padding-top: 10px;
-	padding-bottom: 50px;
-}
-
 #projects {
 	line-height: 1.25;
+		padding-top: 1px;
+		padding-bottom: 1px;
 }
 
 #projects-content {
 	margin: 0 auto;
+}
+
+#contact-me .content {
+	padding-top: 10px;
+	padding-bottom: 50px;
 }
 
 #contact-buttons {
