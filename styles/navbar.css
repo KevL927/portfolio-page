@@ -1,0 +1,50 @@
+nav {
+  height: 44px;
+  position: fixed;
+  right:0;
+  top:0;
+  z-index: 102;
+}
+
+#sticky-nav-bar {
+  height: 44px;
+  padding: 5px;
+  background: rgb(153,153,153);
+  background: rgba(153,153,153,0.8);
+  border-radius: 5px;
+}
+
+#sticky-nav-bar ul {
+  margin: 0;
+  padding: 0;
+}
+
+#sticky-nav-bar li {
+  float: left;
+  padding: 0px 8px;
+  background-color: #FFF;
+  margin: 0 10px 0 0;
+  color: #F00;
+  list-style-type: none;
+}
+
+#sticky-nav-bar li:hover {
+  background-color: lightgray;
+}
+
+#sticky-nav-bar li:active {
+  background-color: darkgray;
+}
+
+.nav-link {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 22px;
+  cursor: pointer;
+  color: #AA3939;
+  text-decoration: none;
+}
+
+.currentSectionColor {
+  background-color: #23251F !important;
+}
