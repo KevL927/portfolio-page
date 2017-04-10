@@ -342,12 +342,11 @@ ul ul {
 }
 
 @media (min-width: 494px) {
-	#sticky-nav-bar {height: 46px;}
+	#sticky-nav-bar {height: 46px; padding: 5px;}
 	.nav-link{font-size: 24px;}
 }
 
 @media (min-width: 516px) {
-	#sticky-nav-bar {height: 46px;}
 	.nav-link{font-size: 24px;}
 }
 
@@ -367,8 +366,6 @@ ul ul {
 	.col-m-12 {width: 100%;}
 	.title {font-size: 90px;}
 	.subtitle {font-size: 50px;}
-	#sticky-nav-bar {height: 46px;}
-	.nav-link{font-size: 24px;}
 	#contact-buttons a {display: inline-block; margin: auto 78px; text-decoration: none;}
 }
 

@@ -8,7 +8,7 @@ nav {
 
 #sticky-nav-bar {
   height: 44px;
-  padding: 5px;
+  padding: 8px;
   background: rgb(153,153,153);
   background: rgba(153,153,153,0.8);
   border-radius: 5px;
@@ -37,9 +37,9 @@ nav {
 }
 
 .nav-link {
-  font-family: 'Playfair Display', serif;
+	font-family: 'Merriweather', serif;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 18px;
   cursor: pointer;
   color: #AA3939;
   text-decoration: none;
