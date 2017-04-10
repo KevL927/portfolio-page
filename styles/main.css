@@ -326,6 +326,10 @@ ul ul {
   width: 100%;
 }
 
+@media (min-width: 417px) {
+	.project-title p {font-size: 34px;}
+}
+
 @media (min-width: 440px) {
 	.project-title p {font-size: 34px;}
 }
@@ -363,7 +367,7 @@ ul ul {
 
 @media (min-width: 885px) {
   #contact-buttons a {display: inline-block; margin: auto 18px; text-decoration: none;}
-  .contact-link-text {display: block; font-size: 18px;}
+  .contact-link-text {display: block; font-size: 16px;}
 }
 
 /* Medium devices (desktops, 992px and up) */
