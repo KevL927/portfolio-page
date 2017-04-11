@@ -1,6 +1,6 @@
 @font-face {
-	font-family: "goudy-bookletter";
-	src: url("../fonts/goudy_bookletter_1911-webfont.woff") format('woff');
+	font-family: "Hal";
+	src: url("../fonts/hal.ttf") format('truetype');
 }
 
 * {
@@ -9,7 +9,7 @@
 
 body {
 	margin: 0;
-	font-family: 'Merriweather', serif;
+	font-family: Hal;
 }
 
 section {
@@ -142,6 +142,7 @@ ul ul {
 }
 
 .link-text {
+	font-family: 'Roboto', sans-serif;
 	display: block;
 	font-size: 24px;
 }
@@ -175,11 +176,7 @@ ul ul {
 .about-me-pg {
 	font-size: 20px;
 	text-align: justify;
-  font-family: goudy-bookletter;
-}
-
-.font-fix {
-	font-family: serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #projects-content .proj-odd:nth-child(4) {
@@ -210,10 +207,6 @@ ul ul {
 	margin: 5px auto;
 }
 
-.project-tech span {
-	font-weight: bold;
-}
-
 .project-title, .project-tech, .project-detail {
 	margin-top: 5px;
 	border-radius: 5px;
@@ -221,7 +214,7 @@ ul ul {
 }
 
 .project-title, .project-detail {
-	font-family: goudy-bookletter;
+	font-family: 'Roboto', sans-serif;
 }
 
 .project-screenshot {
@@ -275,7 +268,7 @@ ul ul {
 
 .project-tech span:nth-child(odd) {
 	color: #AA3939;
-	font-family: goudy-bookletter;
+	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	border-radius: 2px;
 	padding: 2px;
@@ -289,7 +282,7 @@ ul ul {
 .contact-title {
 	color: #AA3939;
 	text-align: center;
-	font-family: 'Merriweather', serif;
+	font-family: Hal;
 	font-weight: bold;
 	font-size: 44px;
 	line-height: 0;
@@ -300,6 +293,7 @@ ul ul {
 }
 
 .contact-link-text {
+	font-family: 'Roboto', sans-serif;
   display: none;
 }
 
@@ -330,6 +324,17 @@ ul ul {
 /* For mobile devices */
 .col-3, .col-4, .col-6, .col-12 {
   width: 100%;
+}
+
+@media only screen and (max-width: 324px) and (min-width: 320px)  {
+	.nav-link{font-size: 17px;}
+	.profile-pic{width: 232px !important;}
+}
+
+@media only screen and (max-width: 343px) and (min-width: 320px)  {
+	#contact-buttons a:nth-child(4) {
+		padding-top: 22px;
+	}
 }
 
 @media (min-width: 417px) {
