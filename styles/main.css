@@ -1,6 +1,6 @@
 @font-face {
-	font-family: "goudy-bookletter";
-	src: url("../fonts/goudy_bookletter_1911-webfont.woff") format('woff');
+	font-family: "Hal";
+	src: url("../fonts/Hal.ttf") format('truetype');
 }
 
 * {
@@ -9,14 +9,13 @@
 
 body {
 	margin: 0;
-	font-family: 'Merriweather', serif;
+	font-family: Hal;
 }
 
 section {
   width: 100%;
   padding: 0 7%;
   margin: 0;
-  /*display: table;*/
 	background-color: #23251F;
 }
 
@@ -33,7 +32,7 @@ ul ul {
 
 #intro {
   position: relative;
-  height: 94vh;
+	padding-bottom: 1px;
 }
 
 #intro-content {
@@ -143,6 +142,7 @@ ul ul {
 }
 
 .link-text {
+	font-family: 'Roboto', sans-serif;
 	display: block;
 	font-size: 24px;
 }
@@ -159,7 +159,7 @@ ul ul {
 }
 
 .section-title {
-	margin: 50px auto 100px;
+	margin: 50px auto 34px;
 	text-align: center;
 }
 
@@ -176,11 +176,7 @@ ul ul {
 .about-me-pg {
 	font-size: 20px;
 	text-align: justify;
-  font-family: goudy-bookletter;
-}
-
-.font-fix {
-	font-family: serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #projects-content .proj-odd:nth-child(4) {
@@ -211,10 +207,6 @@ ul ul {
 	margin: 5px auto;
 }
 
-.project-tech span {
-	font-weight: bold;
-}
-
 .project-title, .project-tech, .project-detail {
 	margin-top: 5px;
 	border-radius: 5px;
@@ -222,7 +214,7 @@ ul ul {
 }
 
 .project-title, .project-detail {
-	font-family: goudy-bookletter;
+	font-family: 'Roboto', sans-serif;
 }
 
 .project-screenshot {
@@ -252,7 +244,7 @@ ul ul {
 .project-links li {
   display: inline-block;
 	list-style-type: none;
-	padding-right: 20px;
+	padding-right: 8px;
 }
 
 .project-links i {
@@ -276,7 +268,7 @@ ul ul {
 
 .project-tech span:nth-child(odd) {
 	color: #AA3939;
-	font-family: goudy-bookletter;
+	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	border-radius: 2px;
 	padding: 2px;
@@ -290,7 +282,7 @@ ul ul {
 .contact-title {
 	color: #AA3939;
 	text-align: center;
-	font-family: 'Merriweather', serif;
+	font-family: Hal;
 	font-weight: bold;
 	font-size: 44px;
 	line-height: 0;
@@ -301,6 +293,7 @@ ul ul {
 }
 
 .contact-link-text {
+	font-family: 'Roboto', sans-serif;
   display: none;
 }
 
@@ -333,12 +326,29 @@ ul ul {
   width: 100%;
 }
 
+@media only screen and (max-width: 324px) and (min-width: 320px)  {
+	.nav-link{font-size: 17px;}
+	.profile-pic{width: 232px !important;}
+}
+
+@media only screen and (max-width: 343px) and (min-width: 320px)  {
+	#contact-buttons a:nth-child(4) {
+		padding-top: 22px;
+	}
+}
+
+@media (min-width: 383px) {
+	.nav-link {
+		font-size: 22px;
+	}
+}
+
 @media (min-width: 417px) {
 	.project-title p {font-size: 34px;}
 }
 
-@media (min-width: 440px) {
-	.project-title p {font-size: 34px;}
+@media (min-width: 465px) {
+	.project-links li {padding-right: 20px;}
 }
 
 @media (min-width: 494px) {
