@@ -337,6 +337,12 @@ ul ul {
 	}
 }
 
+@media (min-width: 383px) {
+	.nav-link {
+		font-size: 22px;
+	}
+}
+
 @media (min-width: 417px) {
 	.project-title p {font-size: 34px;}
 }
