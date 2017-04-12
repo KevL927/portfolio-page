@@ -241,6 +241,10 @@ ul ul {
 	margin: 0px;
 }
 
+.project-links {
+	padding-left: 4px;
+}
+
 .project-links li {
   display: inline-block;
 	list-style-type: none;
